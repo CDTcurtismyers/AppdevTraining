@@ -1,3 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Loaner request" max_length="40" name="x_cdltd_loaner_req_loaner_request" type="collection"/>
+    <element extends="task" label="Loaner request" max_length="40" name="x_cdltd_loaner_req_loaner_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="other" max_length="40" name="other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cmdc_ci_mobile_phone" label="Item type" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="laptop" sequence="0" value="cmdb_ci_computer"/>
+                <element inactive_on_update="false" label="mobile phone" sequence="1" value="cmdc_ci_mobile_phone"/>
+                <element inactive_on_update="false" label="projector" sequence="2" value="cmdb_ci_projector"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="sc" label="Depot" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Santa Clara" sequence="0" value="sc"/>
+                <element inactive_on_update="false" label="new york" sequence="1" value="ny"/>
+                <element inactive_on_update="false" label="london" sequence="2" value="london"/>
+                <element inactive_on_update="false" label="buenes aires" sequence="3" value="bn"/>
+                <element inactive_on_update="false" label="singapore" sequence="4" value="singapore"/>
+                <element inactive_on_update="false" label="sydney" sequence="5" value="sydney"/>
+                <element inactive_on_update="false" label="other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Start date" mandatory="true" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="location to be used" max_length="40" name="u_string_7" type="string"/>
+    </element>
 </database>
