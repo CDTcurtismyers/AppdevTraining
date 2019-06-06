@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>82b5503dd73302004f1e82285e6103e2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="">7bdda483d72302004f1e82285e61039f</application>
+        <filter/>
+        <name>Recurrences</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>sn_publications.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-11-18 15:28:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82b5503dd73302004f1e82285e6103e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recurrences</sys_name>
+        <sys_package display_value="Targeted Communications" source="sn_publications">0fdd6483d72302004f1e82285e61033a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Targeted Communications">0fdd6483d72302004f1e82285e61033a</sys_scope>
+        <sys_update_name>sys_ui_module_82b5503dd73302004f1e82285e6103e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2015-11-18 15:28:57</sys_updated_on>
+        <table>sn_publications_recurrence</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 17:38:41</sys_created_on>
+        <sys_id>6edf7a7ea8f933007f44fafc925718b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recurrences</sys_name>
+        <sys_package display_value="Loaner request" source="x_cdltd_loaner_req">de0975a6a8b533007f44fafc9257189a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner request">de0975a6a8b533007f44fafc9257189a</sys_scope>
+        <sys_update_name>sys_metadata_link_6edf7a7ea8f933007f44fafc925718b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 17:38:41</sys_updated_on>
+        <tablename>sys_ui_module</tablename>
+    </sys_metadata_link>
+</record_update>

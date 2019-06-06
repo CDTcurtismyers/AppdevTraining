@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4d2dee55d70112004f1e82285e6103de</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="">c52dee55d70112004f1e82285e6103de</application>
+        <filter/>
+        <name>Recipients Lists</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>sn_publications_recipients_list_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-01-18 16:32:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d2dee55d70112004f1e82285e6103de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recipients Lists</sys_name>
+        <sys_package display_value="Targeted Communications" source="sn_publications">0fdd6483d72302004f1e82285e61033a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Targeted Communications">0fdd6483d72302004f1e82285e61033a</sys_scope>
+        <sys_update_name>sys_ui_module_4d2dee55d70112004f1e82285e6103de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-01-18 16:32:02</sys_updated_on>
+        <table>sn_publications_recipients_list</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 17:38:41</sys_created_on>
+        <sys_id>62df7a7ea8f933007f44fafc925718aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recipients Lists</sys_name>
+        <sys_package display_value="Loaner request" source="x_cdltd_loaner_req">de0975a6a8b533007f44fafc9257189a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner request">de0975a6a8b533007f44fafc9257189a</sys_scope>
+        <sys_update_name>sys_metadata_link_62df7a7ea8f933007f44fafc925718aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 17:38:41</sys_updated_on>
+        <tablename>sys_ui_module</tablename>
+    </sys_metadata_link>
+</record_update>

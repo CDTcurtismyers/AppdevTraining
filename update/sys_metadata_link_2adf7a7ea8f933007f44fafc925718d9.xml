@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fea5c922d73022005ac38aa37e610319</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Reporting">3a85c122d73022005ac38aa37e6103a0</application>
+        <filter/>
+        <name>Favorite Reports</name>
+        <order/>
+        <path>report_home.do</path>
+        <path_relative_to_root>true</path_relative_to_root>
+        <roles>itil,asset</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-26 16:11:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fea5c922d73022005ac38aa37e610319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Favorite Reports</sys_name>
+        <sys_package display_value="Mobile UI" source="com.glide.ui.m">dc8b8665142033007f44c4a41cbb7c7c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_ui_module_fea5c922d73022005ac38aa37e610319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-26 16:11:10</sys_updated_on>
+        <table/>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 17:38:42</sys_created_on>
+        <sys_id>2adf7a7ea8f933007f44fafc925718d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Favorite Reports</sys_name>
+        <sys_package display_value="Loaner request" source="x_cdltd_loaner_req">de0975a6a8b533007f44fafc9257189a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner request">de0975a6a8b533007f44fafc9257189a</sys_scope>
+        <sys_update_name>sys_metadata_link_2adf7a7ea8f933007f44fafc925718d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 17:38:42</sys_updated_on>
+        <tablename>sys_ui_module</tablename>
+    </sys_metadata_link>
+</record_update>
